@@ -1,0 +1,43 @@
+[
+  {
+    "name": "一言",
+    "url": "https://api.uixsj.cn/hitokoto/w.php"
+  },
+  {
+    "name": "古诗词",
+    "url": "https://v1.jinrishici.com/all.txt"
+  },
+  {
+    "name": "毒鸡汤",
+    "url": "https://api.btstu.cn/yan/api.php"
+  },
+  {
+    "name": "随机段子",
+    "url": "http://api.lq520.club/api/duanzi.php"
+  },
+  {
+    "name": "土味情话",
+    "url": "https://api.uomg.com/api/rand.qinghua?format=text"
+  },
+  {
+    "name": "社会语录",
+    "text": true,
+    "url": "https://cdn.ipayy.net/says/api.php?type=shehui"
+  },
+  {
+    "name": "舔狗日记",
+    "url": "https://api.ixiaowai.cn/tgrj/index.php"
+  },
+  {
+    "name": "朋友圈文案",
+    "url": "https://api.oddfar.com/yl/q.php?c=1008&encode=text"
+  },
+  {
+    "name": "网易云热评",
+    "url": "https://api.uomg.com/api/comments.163?format=text"
+  },
+  {
+    "name": "爱情公寓语录",
+    "url": "http://api.lq520.club/api/yl.php?lx=aqgy"
+  }
+]

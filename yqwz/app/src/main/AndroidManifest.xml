@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bzxg.yqwz">
+    <!--
+    【参考】
+    https://blog.csdn.net/jiaonizuoren/article/details/89915198
+    https://blog.csdn.net/qq_36339249/article/details/71699006
+    https://blog.csdn.net/zj_blog/article/details/81012044
+    https://blog.csdn.net/smileiam/article/details/72123227
+    https://m.jb51.net/article/92843.htm
+    https://blog.csdn.net/qq_37142785/article/details/112566009
+    https://www.jb51.net/article/167023.htm
+    https://blog.csdn.net/friendan/article/details/107029767
+    https://www.jianshu.com/p/1e84d33154bd
+    https://blog.csdn.net/u012532559/article/details/44925285
+    https://blog.csdn.net/u010356768/article/details/89045222
+    https://blog.csdn.net/jflex/article/details/46973811
+    https://www.cnblogs.com/dmego/p/9033080.html
+    https://www.cnblogs.com/tomcattd/archive/2013/01/02/2842070.html
+    https://www.runoob.com/java/java-files-io.html
+    https://blog.csdn.net/qq_40183281/article/details/93208976
+    https://www.jb51.net/article/144803.htm
+    https://www.jianshu.com/p/d6e7aa7fe69c
+    https://www.runoob.com/w3cnote/android-tutorial-exercise-6-html.html
+    https://www.cnblogs.com/gzggyy/archive/2012/10/30/2746718.html
+    https://blog.csdn.net/qq_21451721/article/details/53331617
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <!--网络-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--读-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--写-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--创建/删除文件-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+</manifest>
