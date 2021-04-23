@@ -4,6 +4,7 @@
 ## 关于
 - 名称：有趣文字
 - 版本：v1.1
+- 安装包：[蓝奏云下载](https://bzxg.lanzous.com/idrDMn3dkhg "蓝奏云下载")
 - 时间：21/3/18
 - API：来源于网络
 - 适用：Android 4.4+
